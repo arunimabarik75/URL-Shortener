@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}Generate Short URL{% endblock %}
+
+{% block content %}
+<div id="part1">
+    <div><img id="logo"
+            src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_933c58427218792dd8a3082b94ccda85/shylnk.png"
+            alt="logo"></div>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <div>
+        <h1 id="main-heading">UrlInn</h1>
+    </div>
+</div>
+
+<div id="part2">
+    <form action="#" , method="post">
+        <h2 id="label">Enter long URL:</h2><br>
+
+        <div class="input-group mb-3">
+            <input type="url" name="nm" id="url" class="form-control" placeholder="https://abc.com"
+                aria-describedby="button-addon2" required>
+            <input type="submit" class="btn btn-warning btn-lg" type="button" id="button-addon2" value="Generate Short URL">
+        </div>
+    </form>
+</div>
+{% endblock %}

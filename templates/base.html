@@ -1,0 +1,72 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Bangers&display=swap" rel="stylesheet">
+    <title>{% block title %}{% endblock %}</title>
+
+    <style>
+        #logo {
+            height: 120px;
+            width: 120px;
+            background-color: transparent;
+        }
+        
+        #home {
+            height: 70px;
+            width: 70px;
+            background-color: transparent;
+        }
+
+        #main-heading {
+            font-family: 'Bangers', cursive;
+            font-size: 6.5rem;
+        }
+
+        #part1 {
+            width: 100%;
+            display: flex;
+            align-items: left;
+            justify-content: left;
+            background-color: lawngreen;
+        }
+
+        #part2,
+        #part3 {
+            padding: 50px 20px 20px 20px;
+            width: 70%;
+        }
+
+        #part4 {
+            padding: 80px 30px 30px 30px;
+            text-align: right;
+            width: 80%;
+        }
+
+        #label {
+            font-family: 'Arvo', cursive;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    {% block content%}
+    {% endblock %}
+</body>
+
+</html>
