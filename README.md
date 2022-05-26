@@ -1,6 +1,6 @@
 # URL-Shortener
 
-Shortens a URL using Flask and Python
+Shortens a URL using Python
 
 Important points -
 1. Install flask on your system
