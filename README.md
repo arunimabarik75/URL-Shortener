@@ -1,11 +1,14 @@
-# URL-shortener
+# URL-Shortener
 
-This is a simple flask app which takes an URL and shortens it. This shortened verion of the URL redirects to the user to the long URL. 
+Shortens a URL using Flask and Python
 
-For each long URL given by the user the application randomly generates an alphabetical combination which redirects to the long URL.
-
-# Webiste hosted on heroku
-https://tinyurlanish.herokuapp.com/
-
-# Youtube Tutorial
-https://www.youtube.com/watch?v=YI16KWyA3M0
+Important points -
+1. Install flask on your system
+2. Run the app.py file to get the local host id
+3. Redirect to the local host using any browser
+4. On entering a long url and clicking on Generate Short URL, you will get redirected to the next page
+5. The short url is generating using random library of python and is a 6 length alphanumeric string
+6. The new url can be copied to clipboard
+7. /all_urls redirects to the database containing all long and corresponding short urls
+8. The database used is SQLAlchemy
+9. Flask has been used for the Backend and HTML CSS Bootstrap for the Frontend
