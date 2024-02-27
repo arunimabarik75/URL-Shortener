@@ -11,27 +11,27 @@ A simple URL shortener built using Flask and SQLAlchemy. This application genera
 ## Installation
 1. Clone the repository
 
-`git clone https://github.com/arunimabarik75/URL-Shortener.git`
+    `git clone https://github.com/arunimabarik75/URL-Shortener.git`
 
 2. Navigate to the project directory
 
-`cd URL-Shortener`
+    `cd URL-Shortener`
 
 3. Create a virtual environment
 
-`python -m venv venv`
+    `python -m venv venv`
 
-`venv\Scripts\activate`
+    `venv\Scripts\activate`
 
 4. Install all the required packages
 
-`pip install -r requirements.txt`
+    `pip install -r requirements.txt`
 
 5. Run the `app.py` file to start the application
 
-`python app.py`
+    `python app.py`
 
-The server will run on http://localhost:5000 in your browser
+    The server will run on http://localhost:5000 in your browser
 
 ## Usage
 1. Enter a long URL in the input field and click on "Generate Short URL".
@@ -42,7 +42,7 @@ The server will run on http://localhost:5000 in your browser
 
 4. The new URL can be copied to clipboard for future use.
 
-5. The /all_urls route displays all the long and corresponding short URLs present in the database.
+5. The `/all_urls` route displays all the long and corresponding short URLs present in the database.
 
 ## Technology Stack
 1. Flask: A lightweight web framework for building APIs in Python.
